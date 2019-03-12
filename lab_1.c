@@ -64,7 +64,7 @@ int temp;
 
 void QuickSort(int arr[], int first, int last)
 {
-	int i = first, j = last, x = arr[(first + last) / 2];
+	int i = first, j = last, x = arr[first + (last - first) / 2];
 	int temp;
 
 	do {
